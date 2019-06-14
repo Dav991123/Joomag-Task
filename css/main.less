@@ -1,4 +1,11 @@
-@import '/helpers/helpers.css';
+// @import '/helpers/helpers.css';
+
+
+
+
+
+
+
 
 //section1  The main section
 #intro-background {
@@ -77,13 +84,7 @@
 }
 
 
-
-
-
-
 //section4
-
-
 #subscription-background {
     height: 80vh;
     min-height: 550px;
@@ -151,6 +152,8 @@
         }
 
 }
+
+
 //section 5
 .footer-background {
     width: 100%;
@@ -177,7 +180,40 @@
     }
 
 }
+//helpers
+.skewed-block {
+    transform: skew(0deg, -5deg);
+}
 
+.directed-block {
+    transform: skew(0deg, 5deg);
+}
+
+
+form {
+    display: flex;
+    justify-content: center;
+    margin: 35px 0px;
+    .form-group {
+        width: 54%;
+        display: flex;
+        
+        input {
+            padding: 25px 10px;
+        }
+
+        button {
+            background-color: #3fa2db;
+            width: 70%;
+            color: #ffff;
+            padding: 6px 0px;
+            transition-duration: 0.1s;
+        }
+        button:hover {
+            background-color: #00afefda;
+        }
+    }
+}
 
 
 
