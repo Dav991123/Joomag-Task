@@ -28,6 +28,9 @@
   form .form-group button {
     padding: 15px 0px;
   }
+  .footer-background {
+    height: 95vh ! important;
+  }
 }
 @media only screen and (max-width: 1200px) {
   #skewed-background {
